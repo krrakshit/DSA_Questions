@@ -17,7 +17,6 @@ public class btrees08 {
     public static void getinorder(Node root, ArrayList<Integer> arr) {
         if (root == null) {
             return;
-
         }
         getinorder(root.left, arr);
         arr.add(root.data);
@@ -29,9 +28,8 @@ public class btrees08 {
         root.left = createbst(arr, st, mid-1);
         root.right = createbst(arr, mid+1, end);
         return root;
-
     }
-
+    
     public static Node mergebst(Node root1, Node root2) {
         ArrayList<Integer> arr1 = new ArrayList<>();
         getinorder(root1, arr1);
