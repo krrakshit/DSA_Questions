@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class q3 {
+public class lc217 {
     // conntains duplicate
     class Solution {
     public boolean containsDuplicate(int[] nums) {

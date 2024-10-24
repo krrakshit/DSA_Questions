@@ -1,4 +1,4 @@
-public class q8 {
+public class lc33 {
     // 33 search in rotated sorted array
     public int search(int[] nums, int target) {
         int pivot = findpivot(nums);

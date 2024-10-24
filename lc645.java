@@ -1,4 +1,4 @@
-public class q7 {
+public class lc645 {
     // 645 set mismatch
 
     public int[] findErrorNums(int[] arr) {

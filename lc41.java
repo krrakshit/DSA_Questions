@@ -1,4 +1,4 @@
-public class q6{
+public class lc41{
     // 41 first missing positive 
 
     public int firstMissingPositive(int[] arr) {
